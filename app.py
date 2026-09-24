@@ -104,6 +104,35 @@ st.markdown(
     f"""
     <style>
     
+    /* Aircraft model selectbox */
+div[data-baseweb="select"] > div {{
+    background-color: rgba(255, 255, 255, 0.95) !important;
+    color: #111827 !important;
+    border-radius: 8px !important;
+}}
+
+div[data-baseweb="select"] span {{
+    color: #111827 !important;
+}}
+
+div[data-baseweb="select"] input {{
+    color: #111827 !important;
+}}
+
+/* Dropdown options */
+ul[role="listbox"] {{
+    background-color: #ffffff !important;
+}}
+
+ul[role="listbox"] li {{
+    color: #111827 !important;
+    background-color: #ffffff !important;
+}}
+
+ul[role="listbox"] li:hover {{
+    background-color: #e5e7eb !important;
+}}
+    
     {background_css}
 
     /* Main application text */
